@@ -71,9 +71,3 @@ window.addEventListener('scroll', scrollActive);
 
 ////
 
-const linkdin = document.querySelectorAll('.linkdin');
-const url = 'www.linkedin.com/in/sarthak-nimbark-62595a248'; 
-linkdin.addEventListener('onclick', () => {
-    window.location.href = url;
-});
-
