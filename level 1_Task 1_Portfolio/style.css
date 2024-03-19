@@ -335,6 +335,16 @@ header>.container {
     text-align: right;
 }
 
+.mahi1:hover {
+    color: var(--main-color) !important;
+    box-shadow: 0 0 60px var(--main-color) !important;
+}
+
+.mahi2:hover {
+    color: var(--main-color) !important;
+    box-shadow: 0 0 60px var(--main-color) !important;
+}
+
 @media screen and (max-width: 768px) {
     .hero_content h4 {
         font-size: 16px;
