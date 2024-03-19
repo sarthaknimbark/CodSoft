@@ -23,7 +23,7 @@ function scrollHeader() {
 }
 
 window.addEventListener('scroll', scrollHeader);
-
+/*
 const typed = document.querySelector('.typed');
 
 if (typed) {
@@ -36,17 +36,9 @@ if (typed) {
         backSpeed: 50,
         backDelay: 2000
     });
-}
+}*/
 
-/*$(document).ready(function () {
-    var typed = new Typed(".typed", {
-        strings: ["Sarthak Nimbark", "Developer", "Designer", "Freelancer"],
-        loop: true,
-        typeSpeed: 100,
-        backSpeed: 50,
-        backDelay: 2000
-    });
-});*/
+
 
 //scroll section active link
 const sections = document.querySelectorAll('section[id]');
