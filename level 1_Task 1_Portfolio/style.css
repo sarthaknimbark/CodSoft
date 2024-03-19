@@ -564,7 +564,8 @@ header>.container {
     }
 
     .right_content>.text-box {
-        margin-left: 3px;
+        margin: 1px;
+        width: 260px;
     }
 
     .left_content i,
