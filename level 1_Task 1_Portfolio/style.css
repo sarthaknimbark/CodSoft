@@ -484,67 +484,6 @@ header>.container {
 .education_content {
     margin-bottom: 20px;
 }
-/*
-.left_content {
-    left: 0;
-}
-
-.left_content>.text-box {
-    margin-right: 90px;
-}
-
-.right_content {
-    left: 50%;
-    width: 500px;
-}
-
-.right_content>.text-box {
-    margin-left: -10px;
-}
-*/
-/*
-.education_content>i {
-    width: 40px;
-    right: 76px;
-    top: 32px;
-    position: absolute;
-    border-radius: 50%;
-    z-index: 999;
-    font-size: 22px;
-    display: inline-flex;
-    width: 50px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-}
-
-.right_content>i {
-    left: -26px;
-    width: 40px;
-    font-size: 22px;
-    display: inline-flex;
-    width: 50px;
-    height: 50px;
-    align-items: center;
-    justify-content: center;
-    transition: .3s;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
-}*/
-/*
-.education_container::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    height: 100%;
-    background: var(--main-color);
-    top: 0;
-    left: 50%;
-    margin-left: -3px;
-}*/
 
 .text-box>i {
     font-size: 22px;
@@ -568,30 +507,7 @@ header>.container {
     display: inline-block;
     margin-bottom: 15px;
 }
-/*
-.right_container_arrow {
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 999;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid transparent;
-    left: -15px;
-}
 
-.left_container_arrow {
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 999;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid transparent;
-    left: -15px;
-}*/
 
 .text-box:hover {
     background-color: var(--main-color);
@@ -600,7 +516,6 @@ header>.container {
 .text-box:hover>i {
     background-color: var(--second-color);
 }
-
 
 
 @media screen and (max-width: 768px) {
@@ -647,7 +562,7 @@ header>.container {
         left: -4px;
     }
 
-}*/
+}
 
 
 
@@ -694,7 +609,6 @@ header>.container {
     height: 15px;
     width: 15px;
     background-color: var(--main-color);
-    /* Changed color to background-color */
     border-radius: 50%;
 }
 
@@ -731,10 +645,8 @@ header>.container {
 .inputs {
     display: flex;
     flex-direction: column;
-    /* Change to column direction for smaller screens */
     justify-content: space-between;
     row-gap: 20px;
-    /* Use row-gap instead of column-gap */
 }
 
 input,
@@ -774,7 +686,6 @@ textarea:focus {
 
     .contact_content {
         width: 50%;
-        /* Change width to 100% for smaller screens */
         padding: 0;
         justify-content: center;
         margin-left: 25%;
@@ -783,7 +694,6 @@ textarea:focus {
 
     .inputs {
         flex-direction: column;
-        /* Change to column direction for smaller screens */
     }
 
     input,
